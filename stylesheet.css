@@ -1,0 +1,163 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 50px;
+    background-color: black;
+    top: 0;
+    color: white;
+    margin-top: -15px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 500px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+
+header {
+    background-size: 100%;
+    height: 430px;
+    background-image: url(fotos/header_foto_v1-01.jpg);
+    background-repeat: no-repeat;
+}
+
+
+header img {
+    width: 200px;
+    margin-left: 200px;
+}
+
+
+
+header h1,
+h2,
+h3 {
+    margin-left: 170px;
+}
+
+hr {
+    color: black;
+    width: 250px;
+    margin-left: 170px;
+
+}
+
+h1 {
+    font-size: 28px;
+    font-family: sans-serif;
+    color: green;
+
+}
+
+h2 {
+    font-size: 22px;
+    font-family: sans-serif;
+    color: green;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: white;
+    display: grid;
+    grid-column: 1fr;
+    grid-row: 1fr, 1fr, 1fr;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#indhold_box {
+    font-family: sans-serif;
+    font font-size: 12px;
+    display: grid;
+    grid-column: 1fr, 1fr;
+    grid-row: 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+#text {
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    margin-left: 20px;
+}
+
+#billede {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/1;
+    margin-right: 20px;
+
+}
+
+#billede img {
+    width: 400px;
+}
+
+
+
+
+/*GALLERI*/
+#billede_box {
+    margin-left: 80px;
+}
+
+div.gallery {
+    margin: 30px;
+    float: left;
+    width: 200px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-bottom: 0;
+}
